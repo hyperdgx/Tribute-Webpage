@@ -35,7 +35,6 @@ html, body{
     font-weight: 600;
 }
 .tribute-heading .lower-text{
-    opacity: .5;
     row-gap: 4px;
     display: flex;
     flex-direction: column;
