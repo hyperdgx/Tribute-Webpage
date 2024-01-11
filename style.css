@@ -73,3 +73,35 @@ footer{
     padding: 32px;
     text-align: center;
 }
+@media only screen and (max-width:600px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .tribute-heading h1{
+        font-size: 22px;
+        margin: 8px 0;
+    }
+    .tribute-heading h3{
+        font-size: 14px;
+    }
+    strong{
+        font-size: 14px;
+    }
+    .content-body{
+        padding: 16px;
+    }
+    .content-body ul{
+        padding: 0 16px;
+    }
+    footer{
+        font-size: 14px;
+        padding: 16px;
+    }
+    hr{
+        width: 100%;
+    }
+}
